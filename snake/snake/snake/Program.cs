@@ -24,6 +24,10 @@ namespace snake
                 p.Draw();
             }
 
+            HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
+            line.Draw();
+
+
             Console.ReadLine();
 
         }
